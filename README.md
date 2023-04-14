@@ -1,6 +1,5 @@
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Wine Menu created with Create React App
+[https://wine-list-js-c10.web.app/](https://wine-list-js-c10.web.app/)
 
 ## Available Scripts
 
