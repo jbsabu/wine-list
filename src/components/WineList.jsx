@@ -1,4 +1,5 @@
 import { useState } from "react"
+import WineCard from "./WineCard"
 
 
 
@@ -14,12 +15,7 @@ export default function WineList() {
     <section className="wine-list">
       {(!theWines)
       ? <button onClick={getWines } >Get Wine List</button>
-    : theWines.map(wine=>( 
-      <div className="wine-card">
-        <h2 className = 'wine-header'>{wine.wine}</h2>
-        <img src = {wine.image} className = 'wine-img' alt = {wine.wine}/>
-      </div>
-    )) } 
+    : theWines.map(wine=> <WineCard wine = {wine}/>)} 
 
     </section>
   )
